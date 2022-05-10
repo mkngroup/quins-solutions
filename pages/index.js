@@ -2,8 +2,8 @@ import Head from 'next/head'
 
 
 import Header from '../../quins-solutions/components/Header'
-import Main from '../components/Main'
-import Footer from '../components/Footer'
+import Main from '../components/main'
+import Footer from '../components/footer'
 
 
 export default function Home() {

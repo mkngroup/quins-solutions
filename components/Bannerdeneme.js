@@ -1,5 +1,5 @@
 import React from "react";
-import BannerMain from "./BannerMain";
+import BannerMain from "./bannermain";
 
 function Bannerdeneme() {
   return (

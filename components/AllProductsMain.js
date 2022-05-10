@@ -1,6 +1,6 @@
 import React from "react";
-import BannerMain from "./BannerMain";
-import ProductCard from "./ProductCard";
+import BannerMain from "./bannermain";
+import ProductCard from "./productcard";
 import { Cards } from "../Datas/AllproductsCard";
 
 function AllProductsMain() {

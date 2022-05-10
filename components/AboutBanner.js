@@ -1,7 +1,6 @@
 import React from "react";
-import Comment from "./Comment";
+import Comment from "./comment";
 import { Comments } from "../Datas/CommentsData";
-import Image from "next/image";
 
 function AboutBanner1() {
   return (

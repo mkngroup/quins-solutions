@@ -1,6 +1,6 @@
 import React from "react";
-import BannerMain from "./BannerMain";
-import FeedMain from "./FeedMain";
+import BannerMain from "./bannermain";
+import FeedMain from "./feedmain";
 
 function Main() {
   return (

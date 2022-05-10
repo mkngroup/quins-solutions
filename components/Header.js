@@ -1,12 +1,12 @@
 import { GiHamburgerMenu } from "react-icons/gi";
 import { RiWhatsappFill } from "react-icons/ri";
-import Dropdown from "./Dropdown";
+import Dropdown from "./dropdown";
 import React, { useState } from "react";
-import ToggleMenu from "./ToggleMenu";
+import ToggleMenu from "./togglemenu";
 import Link from "next/link";
-import { Ciltbakim, Vucutbakim } from "../Datas/Dropdowns";
+import { Ciltbakim, Vucutbakim } from "../Datas/dropdowns";
 
-function Header() {
+function header() {
   const [Sidebar, setSidebar] = useState(false);
   const showSidebar = () => setSidebar(!Sidebar);
   return (
@@ -111,4 +111,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default header;

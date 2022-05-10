@@ -1,5 +1,5 @@
 import React from "react";
-import KesfetBtn from "./KesfetBtn";
+import KesfetBtn from "./kesfetbtn";
 
 function FeedCard(props) {
   return (
