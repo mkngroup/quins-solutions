@@ -220,8 +220,8 @@ function AboutBanner1() {
           </div>
         </div>
       </section>
-      <section className="bg-white  px-10">
-        <div className="grid grid-cols-2 gap-5">
+      <section className="bg-white px-2 md:px-10 mb-5">
+        <div className="md:grid grid-cols-2 md:gap-5">
           {comments.map((data, key) => {
             return (
               <Comment
