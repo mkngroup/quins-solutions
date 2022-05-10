@@ -1,6 +1,6 @@
 import React from "react";
 import ProductCard from "../../components/productcard";
-import { Cards } from "../../Datas/allproductscard";
+import { Cards } from "../../datas/allproductscard";
 import Header from "../../components/header";
 import Footer from "../../components/footer";
 import Head from "next/head";

@@ -1,6 +1,6 @@
 import Urunihtiyac from "../../components/urunihtiyac";
-import { Nemlendiricibakim } from "../../Datas/tavsiyeolanurunler";
-import { Nemlendiricibakimyazi } from "../../Datas/ihtiyaclarinizyazi";
+import { Nemlendiricibakim } from "../../datas/tavsiyeolanurunler";
+import { Nemlendiricibakimyazi } from "../../datas/ihtiyaclarinizyazi";
 import Head from 'next/head'
 
 function nemlendiricibakim() {

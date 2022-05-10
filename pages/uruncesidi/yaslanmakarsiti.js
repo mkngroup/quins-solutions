@@ -1,6 +1,6 @@
 import Urunihtiyac from "../../components/urunihtiyac";
-import { Yaslanmakarsitiurunler } from "../../Datas/tavsiyeolanurunler";
-import { Yaslanmakarsitiserumlaryazi } from "../../Datas/ihtiyaclarinizyazi";
+import { Yaslanmakarsitiurunler } from "../../datas/tavsiyeolanurunler";
+import { Yaslanmakarsitiserumlaryazi } from "../../datas/ihtiyaclarinizyazi";
 import Head from 'next/head'
 
 function yaslanmakarsiti() {

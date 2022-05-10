@@ -2,7 +2,7 @@ import React from "react";
 import Footer from "../../../components/footer";
 import Header from "../../../components/header";
 import ProductsPage from "../../../components/productspage";
-import { Vitaminc } from "../../../Datas/productspagedata";
+import { Vitaminc } from "../../../datas/productspagedata";
 
 
 function index() {

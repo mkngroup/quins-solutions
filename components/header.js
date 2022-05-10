@@ -4,7 +4,7 @@ import Dropdown from "./dropdown";
 import React, { useState } from "react";
 import ToggleMenu from "./togglemenu";
 import Link from "next/link";
-import { Ciltbakim, Vucutbakim } from "../Datas/dropdowns";
+import { Ciltbakim, Vucutbakim } from "../datas/dropdowns";
 
 function header() {
   const [Sidebar, setSidebar] = useState(false);

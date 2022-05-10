@@ -1,6 +1,6 @@
 import Urunihtiyac from "../../components/urunihtiyac";
-import { Yuztonesitleyici } from "../../Datas/tavsiyeolanurunler";
-import { Yuztonesitleyiciyazi } from "../../Datas/ihtiyaclarinizyazi";
+import { Yuztonesitleyici } from "../../datas/tavsiyeolanurunler";
+import { Yuztonesitleyiciyazi } from "../../datas/ihtiyaclarinizyazi";
 import Head from 'next/head'
 
 

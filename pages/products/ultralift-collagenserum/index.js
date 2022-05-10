@@ -2,7 +2,7 @@ import React from "react";
 import Footer from "../../../components/footer";
 import Header from "../../../components/header";
 import ProductsPage from "../../../components/productspage";
-import { Collagen } from "../../../Datas/productspagedata";
+import { Collagen } from "../../../datas/productspagedata";
 
 function index() {
   const data = Collagen;

@@ -1,7 +1,7 @@
 import React from "react";
-import Header from "./Header";
-import Footer from "./Footer";
-import ProductCard from "./ProductCard";
+import Header from "./header";
+import Footer from "./footer";
+import ProductCard from "./productcard";
 
 function Urunihtiyac(props) {
   return (
