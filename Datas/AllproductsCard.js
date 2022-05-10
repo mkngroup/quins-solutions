@@ -1,4 +1,4 @@
-export const Cards = [
+export const cards = [
   {
     img: "https://res.cloudinary.com/dnfmvs2ci/image/upload/v1651154633/c_serum_1_tdp55i.jpg",
     imgalt: "color perfection c serum",

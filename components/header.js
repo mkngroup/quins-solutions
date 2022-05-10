@@ -4,7 +4,7 @@ import Dropdown from "./dropdown";
 import React, { useState } from "react";
 import ToggleMenu from "./togglemenu";
 import Link from "next/link";
-import { Ciltbakim, Vucutbakim } from "../datas/dropdowns";
+import { ciltbakim, vucutbakim } from "../datas/dropdowns";
 
 function header() {
   const [Sidebar, setSidebar] = useState(false);
@@ -78,7 +78,7 @@ function header() {
             <div className="menuP group hover:border-b-2 border-blue-700 z-50">
               <Link href="/categories/ciltbakim">Cilt Bakım Ürünleri</Link>
               <div className="hidden absolute left-0 group-hover:block ">
-                <Dropdown data={Ciltbakim} oneri={Ciltbakim.oneri} />
+                <Dropdown data={ciltbakim} oneri={ciltbakim.oneri} />
               </div>
             </div>
             <div className="menuP group hover:border-b-2 border-blue-700 z-50">

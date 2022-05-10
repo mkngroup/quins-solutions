@@ -1,10 +1,10 @@
 import React from "react";
 import BannerMain from "./bannermain";
 import ProductCard from "./productcard";
-import { Cards } from "../datas/allproductscard";
+import { cards } from "../datas/allproductscard";
 
 function AllProductsMain() {
-  const data = Cards;
+  const data = cards;
   // flex flex-col items-center sm:flex-row sm:flex-wrap md:grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4
   return (
     <div>

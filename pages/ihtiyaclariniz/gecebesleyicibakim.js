@@ -1,11 +1,11 @@
 import Urunihtiyac from "../../components/urunihtiyac";
-import { Gecebesleyicibakim } from "../../datas/tavsiyeolanurunler";
-import { Gecebesleyiciyazi } from "../../datas/ihtiyaclarinizyazi";
+import { gecebesleyicibakim } from "../../datas/tavsiyeolanurunler";
+import { gecebesleyiciyazi } from "../../datas/ihtiyaclarinizyazi";
 import Head from 'next/head'
 
 
 
-function gecebesleyicibakim() {
+function gecebesleyicibakimf() {
 
   return (
     <>
@@ -14,12 +14,12 @@ function gecebesleyicibakim() {
       <meta name="description" content="Bakım yapmak için en uygun zamanın gece olduğunu biliyormuydunuz? Gece uyuduğunuz zaman cildiniz kendini yeniler ve onarır. Bu yenilenmeyi uyumadan önce cildinizi iyice temizleyerek ve sonrasında nemlendirerek destekleyebilir siniz. Gece besleyici bakım ürünleri ile, cildiniz rahat nefes alacak ve sizi yeni güne parlak bir yüz ile uyandıracak"  />
     </Head>
       <Urunihtiyac
-        header={Gecebesleyiciyazi.header}
-        descrip={Gecebesleyiciyazi.descrip}
-        data={Gecebesleyicibakim}
+        header={gecebesleyiciyazi.header}
+        descrip={gecebesleyiciyazi.descrip}
+        data={gecebesleyicibakim}
       />
     </>
   );
 }
 
-export default gecebesleyicibakim;
+export default gecebesleyicibakimf;

@@ -2,10 +2,10 @@ import React from "react";
 import Footer from "../../../components/footer";
 import Header from "../../../components/header";
 import ProductsPage from "../../../components/productspage";
-import { HyaluronicAcid } from "../../../datas/productspageData";
+import { hyaluronicacid } from "../../../datas/productspageData";
 
 function index() {
-  const data = HyaluronicAcid;
+  const data = hyaluronicacid;
   return (
     <div>
       <Header />

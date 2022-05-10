@@ -1,4 +1,4 @@
-export const Kolajentakviyesi = [
+export const kolajentakviyesi = [
   {
     img: "https://res.cloudinary.com/dnfmvs2ci/image/upload/v1651154803/Kolajen1_pp5bzm.jpg",
     imgalt: "ultra lift collagen serum",
@@ -8,7 +8,7 @@ export const Kolajentakviyesi = [
     link: "/products/ultralift-collagenserum",
   },
 ];
-export const Gecebesleyicibakim = [
+export const gecebesleyicibakim = [
   {
     img: "https://res.cloudinary.com/dnfmvs2ci/image/upload/v1651154633/c_serum_1_tdp55i.jpg",
     imgalt: "color perfection c serum",
@@ -34,7 +34,7 @@ export const Gecebesleyicibakim = [
     link: "/products/hydrocomplex-hyaluronikasitserum",
   },
 ];
-export const Nemlendiricibakim = [
+export const nemlendiricibakim = [
   {
     img: "https://res.cloudinary.com/dnfmvs2ci/image/upload/v1651751003/hyaluronik_asit_1_jjzcvn.jpg",
     imgalt: "hydro complex hyaluronic acid serum",
@@ -44,7 +44,7 @@ export const Nemlendiricibakim = [
     link: "/products/hydrocomplex-hyaluronikasitserum",
   },
 ];
-export const Vitaminkompleksi = [
+export const vitaminkompleksi = [
   {
     img: "https://res.cloudinary.com/dnfmvs2ci/image/upload/v1651154633/c_serum_1_tdp55i.jpg",
     imgalt: "color perfection c serum",
@@ -70,7 +70,7 @@ export const Vitaminkompleksi = [
     link: "/products/hydrocomplex-hyaluronikasitserum",
   },
 ];
-export const Aknesivilce = [
+export const aknesivilce = [
   {
     img: "https://res.cloudinary.com/dnfmvs2ci/image/upload/v1651154633/c_serum_1_tdp55i.jpg",
     imgalt: "color perfection c serum",
@@ -80,69 +80,7 @@ export const Aknesivilce = [
     link: "/products/colorperfection-cserum",
   },
 ];
-export const Kirisiklikkarsitiserumlar = [
-  {
-    img: "https://res.cloudinary.com/dnfmvs2ci/image/upload/v1651154633/c_serum_1_tdp55i.jpg",
-    imgalt: "color perfection c serum",
-    name: "Color perfection c serum",
-    descrip:
-      "Quins Derm Solutions %10 Saf Vitamin C Serum 2x30ml–10 Günde Cilt Tonunu Eşitler–güneş, Yaşlılık Lekeleri Hassas Ciltler",
-    link: "/products/colorperfection-cserum",
-  },
-  {
-    img: "https://res.cloudinary.com/dnfmvs2ci/image/upload/v1651154803/Kolajen1_pp5bzm.jpg",
-    imgalt: "ultra lift collagen serum",
-    name: "Ultra lift collagen serum",
-    descrip:
-      "Quins Derm Solutions Sarkma Önleyici – Anında Sıkılaşma Hissi %10 Kolajen + Vitamin B3 Ultra Lift Collagen Serum 2x30ml",
-    link: "/products/ultralift-collagenserum",
-  },
-  {
-    img: "https://res.cloudinary.com/dnfmvs2ci/image/upload/v1651751003/hyaluronik_asit_1_jjzcvn.jpg",
-    imgalt: "hydro complex hyaluronic acid serum",
-    name: "hydro complex hyaluronic acid serum",
-    descrip:
-      "Quins Derm Solutions 48 Saat Nemlendirici–yaşlanma Karşıtı 2 Çeşit %2 Hyalüronik Asit Kompleksi 2x30ml Nemlendirici Serum",
-    link: "/products/hydrocomplex-hyaluronikasitserum",
-  },
-];
-export const Yuztonesitleyici = [
-  {
-    img: "https://res.cloudinary.com/dnfmvs2ci/image/upload/v1651154633/c_serum_1_tdp55i.jpg",
-    imgalt: "color perfection c serum",
-    name: "Color perfection c serum",
-    descrip:
-      "Quins Derm Solutions %10 Saf Vitamin C Serum 2x30ml–10 Günde Cilt Tonunu Eşitler–güneş, Yaşlılık Lekeleri Hassas Ciltler",
-    link: "/products/colorperfection-cserum",
-  },
-  {
-    img: "https://res.cloudinary.com/dnfmvs2ci/image/upload/v1651751003/hyaluronik_asit_1_jjzcvn.jpg",
-    imgalt: "hydro complex hyaluronic acid serum",
-    name: "hydro complex hyaluronic acid serum",
-    descrip:
-      "Quins Derm Solutions 48 Saat Nemlendirici–yaşlanma Karşıtı 2 Çeşit %2 Hyalüronik Asit Kompleksi 2x30ml Nemlendirici Serum",
-    link: "/products/hydrocomplex-hyaluronikasitserum",
-  },
-];
-export const Hyaluronikaciticerikliler = [
-  {
-    img: "https://res.cloudinary.com/dnfmvs2ci/image/upload/v1651154803/Kolajen1_pp5bzm.jpg",
-    imgalt: "ultra lift collagen serum",
-    name: "Ultra lift collagen serum",
-    descrip:
-      "Quins Derm Solutions Sarkma Önleyici – Anında Sıkılaşma Hissi %10 Kolajen + Vitamin B3 Ultra Lift Collagen Serum 2x30ml",
-    link: "/products/ultralift-collagenserum",
-  },
-  {
-    img: "https://res.cloudinary.com/dnfmvs2ci/image/upload/v1651751003/hyaluronik_asit_1_jjzcvn.jpg",
-    imgalt: "hydro complex hyaluronic acid serum",
-    name: "hydro complex hyaluronic acid serum",
-    descrip:
-      "Quins Derm Solutions 48 Saat Nemlendirici–yaşlanma Karşıtı 2 Çeşit %2 Hyalüronik Asit Kompleksi 2x30ml Nemlendirici Serum",
-    link: "/products/hydrocomplex-hyaluronikasitserum",
-  },
-];
-export const Yaslanmakarsitiurunler = [
+export const kirisiklikkarsitiserumlar = [
   {
     img: "https://res.cloudinary.com/dnfmvs2ci/image/upload/v1651154633/c_serum_1_tdp55i.jpg",
     imgalt: "color perfection c serum",
@@ -168,7 +106,43 @@ export const Yaslanmakarsitiurunler = [
     link: "/products/hydrocomplex-hyaluronikasitserum",
   },
 ];
-export const Vitaminb3b5 = [
+export const yuztonesitleyici = [
+  {
+    img: "https://res.cloudinary.com/dnfmvs2ci/image/upload/v1651154633/c_serum_1_tdp55i.jpg",
+    imgalt: "color perfection c serum",
+    name: "Color perfection c serum",
+    descrip:
+      "Quins Derm Solutions %10 Saf Vitamin C Serum 2x30ml–10 Günde Cilt Tonunu Eşitler–güneş, Yaşlılık Lekeleri Hassas Ciltler",
+    link: "/products/colorperfection-cserum",
+  },
+  {
+    img: "https://res.cloudinary.com/dnfmvs2ci/image/upload/v1651751003/hyaluronik_asit_1_jjzcvn.jpg",
+    imgalt: "hydro complex hyaluronic acid serum",
+    name: "hydro complex hyaluronic acid serum",
+    descrip:
+      "Quins Derm Solutions 48 Saat Nemlendirici–yaşlanma Karşıtı 2 Çeşit %2 Hyalüronik Asit Kompleksi 2x30ml Nemlendirici Serum",
+    link: "/products/hydrocomplex-hyaluronikasitserum",
+  },
+];
+export const hyaluronikaciticerikliler = [
+  {
+    img: "https://res.cloudinary.com/dnfmvs2ci/image/upload/v1651154803/Kolajen1_pp5bzm.jpg",
+    imgalt: "ultra lift collagen serum",
+    name: "Ultra lift collagen serum",
+    descrip:
+      "Quins Derm Solutions Sarkma Önleyici – Anında Sıkılaşma Hissi %10 Kolajen + Vitamin B3 Ultra Lift Collagen Serum 2x30ml",
+    link: "/products/ultralift-collagenserum",
+  },
+  {
+    img: "https://res.cloudinary.com/dnfmvs2ci/image/upload/v1651751003/hyaluronik_asit_1_jjzcvn.jpg",
+    imgalt: "hydro complex hyaluronic acid serum",
+    name: "hydro complex hyaluronic acid serum",
+    descrip:
+      "Quins Derm Solutions 48 Saat Nemlendirici–yaşlanma Karşıtı 2 Çeşit %2 Hyalüronik Asit Kompleksi 2x30ml Nemlendirici Serum",
+    link: "/products/hydrocomplex-hyaluronikasitserum",
+  },
+];
+export const yaslanmakarsitiurunler = [
   {
     img: "https://res.cloudinary.com/dnfmvs2ci/image/upload/v1651154633/c_serum_1_tdp55i.jpg",
     imgalt: "color perfection c serum",
@@ -194,7 +168,7 @@ export const Vitaminb3b5 = [
     link: "/products/hydrocomplex-hyaluronikasitserum",
   },
 ];
-export const Ciltbakimurunleri = [
+export const vitaminb3b5 = [
   {
     img: "https://res.cloudinary.com/dnfmvs2ci/image/upload/v1651154633/c_serum_1_tdp55i.jpg",
     imgalt: "color perfection c serum",
@@ -220,5 +194,31 @@ export const Ciltbakimurunleri = [
     link: "/products/hydrocomplex-hyaluronikasitserum",
   },
 ];
-export const Vucutbakimurunleri = [];
-export const SacBakimuurunleri = [];
+export const ciltbakimurunleri = [
+  {
+    img: "https://res.cloudinary.com/dnfmvs2ci/image/upload/v1651154633/c_serum_1_tdp55i.jpg",
+    imgalt: "color perfection c serum",
+    name: "Color perfection c serum",
+    descrip:
+      "Quins Derm Solutions %10 Saf Vitamin C Serum 2x30ml–10 Günde Cilt Tonunu Eşitler–güneş, Yaşlılık Lekeleri Hassas Ciltler",
+    link: "/products/colorperfection-cserum",
+  },
+  {
+    img: "https://res.cloudinary.com/dnfmvs2ci/image/upload/v1651154803/Kolajen1_pp5bzm.jpg",
+    imgalt: "ultra lift collagen serum",
+    name: "Ultra lift collagen serum",
+    descrip:
+      "Quins Derm Solutions Sarkma Önleyici – Anında Sıkılaşma Hissi %10 Kolajen + Vitamin B3 Ultra Lift Collagen Serum 2x30ml",
+    link: "/products/ultralift-collagenserum",
+  },
+  {
+    img: "https://res.cloudinary.com/dnfmvs2ci/image/upload/v1651751003/hyaluronik_asit_1_jjzcvn.jpg",
+    imgalt: "hydro complex hyaluronic acid serum",
+    name: "hydro complex hyaluronic acid serum",
+    descrip:
+      "Quins Derm Solutions 48 Saat Nemlendirici–yaşlanma Karşıtı 2 Çeşit %2 Hyalüronik Asit Kompleksi 2x30ml Nemlendirici Serum",
+    link: "/products/hydrocomplex-hyaluronikasitserum",
+  },
+];
+export const vucutbakimurunleri = [];
+export const sacbakimuurunleri = [];

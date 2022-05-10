@@ -1,10 +1,10 @@
 import Urunihtiyac from "../../components/urunihtiyac";
-import { Vitaminb3b5 } from "../../datas/tavsiyeolanurunler";
-import { VitaminlerB3B5yazi } from "../../datas/ihtiyaclarinizyazi";
+import { vitaminb3b5 } from "../../datas/tavsiyeolanurunler";
+import { vitaminlerb3b5yazi } from "../../datas/ihtiyaclarinizyazi";
 import Head from 'next/head'
 
 
-function vitaminb3b5() {
+function vitaminb3b5f() {
 
   return (
     <>
@@ -15,12 +15,12 @@ function vitaminb3b5() {
       content="B vitamini genel olarak bedenimizde en hassas bölge olan cildimiz için çok faydalıdır. Özellikle, B3 vitamini cildinizi dış etkenlerden koruyarak cilt bariyerini güçlendirirken, B5 vitamini cildin pürüzsüz ve aknesiz bir görünüm kazanmasına yardımcı olur"  />
     </Head>
       <Urunihtiyac
-        header={VitaminlerB3B5yazi.header}
-        descrip={VitaminlerB3B5yazi.descrip}
-        data={Vitaminb3b5}
+        header={vitaminlerb3b5yazi.header}
+        descrip={vitaminlerb3b5yazi.descrip}
+        data={vitaminb3b5}
       />
     </>
   );
 }
 
-export default vitaminb3b5;
+export default vitaminb3b5f;

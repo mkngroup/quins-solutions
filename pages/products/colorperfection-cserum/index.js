@@ -2,11 +2,11 @@ import React from "react";
 import Footer from "../../../components/footer";
 import Header from "../../../components/header";
 import ProductsPage from "../../../components/productspage";
-import { Vitaminc } from "../../../datas/productspagedata";
+import { vitaminc } from "../../../datas/productspagedata";
 
 
 function index() {
-  const data = Vitaminc;
+  const data = vitaminc;
   return (
     <div>
       <Header />

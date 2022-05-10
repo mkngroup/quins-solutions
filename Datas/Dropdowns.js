@@ -1,4 +1,4 @@
-export const Ciltbakim = {
+export const ciltbakim = {
   uruncesidi: [
     {
       data: "Kırışıklık Karşıtı Serumlar",
@@ -69,7 +69,7 @@ export const Ciltbakim = {
     link: "/",
   },
 };
-export const Vucutbakim = {
+export const vucutbakim = {
   uruncesidi: [
     {
       data: "Kırışıklık Karşıtı Serumlar",
@@ -140,7 +140,7 @@ export const Vucutbakim = {
     link: "/",
   },
 };
-export const Sacbakim = {
+export const sacbakim = {
  
     uruncesidi: [
       {

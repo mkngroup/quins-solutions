@@ -1,9 +1,9 @@
 import Urunihtiyac from "../../components/urunihtiyac";
-import { Nemlendiricibakim } from "../../datas/tavsiyeolanurunler";
-import { Nemlendiricibakimyazi } from "../../datas/ihtiyaclarinizyazi";
+import { nemlendiricibakim } from "../../datas/tavsiyeolanurunler";
+import { nemlendiricibakimyazi } from "../../datas/ihtiyaclarinizyazi";
 import Head from 'next/head'
 
-function nemlendiricibakim() {
+function nemlendiricibakimf() {
 
   return (
     <>
@@ -13,12 +13,12 @@ function nemlendiricibakim() {
     </Head>
 
       <Urunihtiyac
-        header={Nemlendiricibakimyazi.header}
-        descrip={Nemlendiricibakimyazi.descrip}
-        data={Nemlendiricibakim}
+        header={nemlendiricibakimyazi.header}
+        descrip={nemlendiricibakimyazi.descrip}
+        data={nemlendiricibakim}
       />
     </>
   );
 }
 
-export default nemlendiricibakim;
+export default nemlendiricibakimf;

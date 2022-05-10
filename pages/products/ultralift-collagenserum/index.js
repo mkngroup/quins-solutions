@@ -2,10 +2,10 @@ import React from "react";
 import Footer from "../../../components/footer";
 import Header from "../../../components/header";
 import ProductsPage from "../../../components/productspage";
-import { Collagen } from "../../../datas/productspagedata";
+import { collagen } from "../../../datas/productspagedata";
 
 function index() {
-  const data = Collagen;
+  const data = collagen;
   return (
     <div>
       <Header />

@@ -1,11 +1,11 @@
 import Urunihtiyac from "../../components/urunihtiyac";
-import { Hyaluronikaciticerikliler } from "../../datas/tavsiyeolanurunler";
-import { HyaluronicAcidiceriklileryazi } from "../../datas/ihtiyaclarinizyazi";
+import { hyaluronikaciticerikliler } from "../../datas/tavsiyeolanurunler";
+import { hyaluronicacidiceriklileryazi } from "../../datas/ihtiyaclarinizyazi";
 import Head from 'next/head'
 
 
 
-function hyaluronikaciticerikliler() {
+function hyaluronikaciticeriklilerf() {
 
   return (
     <>
@@ -14,12 +14,12 @@ function hyaluronikaciticerikliler() {
       <meta name="description" content="Cildinin nem oranını dengeler, bebek gibi pürüzsüz bir görünüm sağlar. Kaliteli bir cilte sahip olmak için geç kalmadan, hyalüronik asit içerikli ürünleri deneyerek farkını ortaya koy"  />
     </Head>
       <Urunihtiyac
-        header={HyaluronicAcidiceriklileryazi.header}
-        descrip={HyaluronicAcidiceriklileryazi.descrip}
-        data={Hyaluronikaciticerikliler}
+        header={hyaluronicacidiceriklileryazi.header}
+        descrip={hyaluronicacidiceriklileryazi.descrip}
+        data={hyaluronikaciticerikliler}
       />
     </>
   );
 }
 
-export default hyaluronikaciticerikliler;
+export default hyaluronikaciticeriklilerf;

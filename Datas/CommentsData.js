@@ -1,4 +1,4 @@
-export const Comments = [
+export const comments = [
   {
     name: "Sena Fırat",
     img: "https://res.cloudinary.com/dnfmvs2ci/image/upload/v1651772062/profile%20images/WhatsApp_Image_2022-02-20_at_10.17.05_cmbxng.jpg",

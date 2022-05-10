@@ -1,6 +1,6 @@
 import Urunihtiyac from "../../components/urunihtiyac";
-import { Yaslanmakarsitiurunler } from "../../datas/tavsiyeolanurunler";
-import { Yaslanmakarsitiserumlaryazi } from "../../datas/ihtiyaclarinizyazi";
+import { yaslanmakarsitiurunler } from "../../datas/tavsiyeolanurunler";
+import { yaslanmakarsitiserumlaryazi } from "../../datas/ihtiyaclarinizyazi";
 import Head from 'next/head'
 
 function yaslanmakarsiti() {
@@ -15,9 +15,9 @@ function yaslanmakarsiti() {
     </Head>
 
       <Urunihtiyac
-        header={Yaslanmakarsitiserumlaryazi.header}
-        descrip={Yaslanmakarsitiserumlaryazi.descrip}
-        data={Yaslanmakarsitiurunler}
+        header={yaslanmakarsitiserumlaryazi.header}
+        descrip={yaslanmakarsitiserumlaryazi.descrip}
+        data={yaslanmakarsitiurunler}
       />
     </>
   );

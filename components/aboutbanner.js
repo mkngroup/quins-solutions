@@ -1,6 +1,6 @@
 import React from "react";
 import Comment from "./comment";
-import { Comments } from "../datas/commentsdata";
+import { comments } from "../datas/commentsdata";
 
 function AboutBanner1() {
   return (
@@ -222,7 +222,7 @@ function AboutBanner1() {
       </section>
       <section className="bg-white  px-10">
         <div className="grid grid-cols-2 gap-5">
-          {Comments.map((data, key) => {
+          {comments.map((data, key) => {
             return (
               <Comment
                 key={key}
