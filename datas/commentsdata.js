@@ -54,6 +54,6 @@ export const comments = [
     img: "https://res.cloudinary.com/dnfmvs2ci/image/upload/v1652195081/profile%20images/WhatsApp_Image_2022-05-10_at_5.59.52_PM_tavvxs.jpg",
     time: "3h",
     like: "41",
-    data: "Sizi geç keşfetdim ya:( bakım rutinime sizin ürünlerinizi de ekledim, severek kullanıyorum, hatta annemede kırıışıklık karşıtı serumunuzu aldım, birlikte kullanlıyoruz ",
+    data: "Sevimli markamin sevimli ürünlerini kullanmayi çok seviyorum😍 Ama favorim Ultra Lift Collagen Serum😌 Gönül rahatlığıyla deneyebilir siniz💫",
   },
 ];
