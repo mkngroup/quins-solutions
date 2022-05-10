@@ -2,7 +2,7 @@ import React from "react";
 import Footer from "../../../components/footer";
 import Header from "../../../components/header";
 import ProductsPage from "../../../components/productspage";
-import { hyaluronicacid } from "../../../datas/productspageData";
+import { hyaluronicacid } from "../../../datas/productspagedata";
 
 function index() {
   const data = hyaluronicacid;
