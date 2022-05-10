@@ -1,7 +1,7 @@
 import React from "react";
-import AllProductsMain from "../../components/AllProductsMain";
-import Header from "../../components/Header";
-import Footer from "../../components/Footer";
+import AllProductsMain from "../../components/allproductsmain";
+import Header from "../../components/header";
+import Footer from "../../components/footer";
 import Head from "next/head";
 
 function index() {

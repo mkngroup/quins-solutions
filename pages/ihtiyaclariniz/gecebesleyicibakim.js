@@ -1,6 +1,6 @@
-import Urunihtiyac from "../../components/Urunihtiyac";
-import { Gecebesleyicibakim } from "../../Datas/Tavsiyeolanurunler";
-import { Gecebesleyiciyazi } from "../../Datas/Ihtiyaclarinizyazi";
+import Urunihtiyac from "../../components/urunihtiyac";
+import { Gecebesleyicibakim } from "../../Datas/tavsiyeolanurunler";
+import { Gecebesleyiciyazi } from "../../Datas/ihtiyaclarinizyazi";
 import Head from 'next/head'
 
 

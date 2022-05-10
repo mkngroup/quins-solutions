@@ -1,5 +1,5 @@
 import React from 'react'
-import Bannerdeneme from '../../../components/Bannerdeneme'
+import Bannerdeneme from '../../../components/bannerdeneme'
 
 function index() {
   return (

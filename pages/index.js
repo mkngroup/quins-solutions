@@ -1,7 +1,7 @@
 import Head from 'next/head'
 
 
-import Header from '../../quins-solutions/components/Header'
+import Header from '../../quins-solutions/components/header'
 import Main from '../components/main'
 import Footer from '../components/footer'
 

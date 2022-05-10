@@ -1,7 +1,7 @@
 import React from "react";
 import BannerMain from "./bannermain";
 import ProductCard from "./productcard";
-import { Cards } from "../Datas/AllproductsCard";
+import { Cards } from "../Datas/allproductscard";
 
 function AllProductsMain() {
   const data = Cards;

@@ -1,8 +1,8 @@
 import React from "react";
-import Footer from "../../../components/Footer";
-import Header from "../../../components/Header";
-import ProductsPage from "../../../components/ProductsPage";
-import { HyaluronicAcid } from "../../../Datas/ProductsPageData";
+import Footer from "../../../components/footer";
+import Header from "../../../components/header";
+import ProductsPage from "../../../components/productspage";
+import { HyaluronicAcid } from "../../../Datas/productspageData";
 
 function index() {
   const data = HyaluronicAcid;

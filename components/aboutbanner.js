@@ -1,6 +1,6 @@
 import React from "react";
 import Comment from "./comment";
-import { Comments } from "../Datas/CommentsData";
+import { Comments } from "../Datas/commentsdata";
 
 function AboutBanner1() {
   return (

@@ -1,6 +1,6 @@
-import Urunihtiyac from "../../components/Urunihtiyac";
-import { Vitaminb3b5 } from "../../Datas/Tavsiyeolanurunler";
-import { VitaminlerB3B5yazi } from "../../Datas/Ihtiyaclarinizyazi";
+import Urunihtiyac from "../../components/urunihtiyac";
+import { Vitaminb3b5 } from "../../Datas/tavsiyeolanurunler";
+import { VitaminlerB3B5yazi } from "../../Datas/ihtiyaclarinizyazi";
 import Head from 'next/head'
 
 

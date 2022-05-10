@@ -1,7 +1,7 @@
 import React from "react";
-import MakaleBanner from "../../components/MakaleBanner";
-import Header from "../../components/Header";
-import Footer from '../../components/Footer'
+import MakaleBanner from "../../components/makalebanner";
+import Header from "../../components/header";
+import Footer from '../../components/footer'
 
 function Makale() {
   return (

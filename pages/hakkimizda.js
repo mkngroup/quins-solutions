@@ -1,6 +1,6 @@
-import Header from "../components/Header";
-import Footer from "../components/Footer";
-import AboutBanner from "../components/AboutBanner";
+import Header from "../components/header";
+import Footer from "../components/footer";
+import AboutBanner from "../components/aboutbanner";
 import Head from "next/head";
 
 function index() {

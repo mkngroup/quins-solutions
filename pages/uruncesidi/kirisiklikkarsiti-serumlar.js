@@ -1,6 +1,6 @@
-import Urunihtiyac from "../../components/Urunihtiyac";
-import { Kirisiklikkarsitiserumlar } from "../../Datas/Tavsiyeolanurunler";
-import { Kirisiklikkarsitiyazi } from "../../Datas/Ihtiyaclarinizyazi";
+import Urunihtiyac from "../../components/urunihtiyac";
+import { Kirisiklikkarsitiserumlar } from "../../Datas/tavsiyeolanurunler";
+import { Kirisiklikkarsitiyazi } from "../../Datas/ihtiyaclarinizyazi";
 import Head from 'next/head'
 
 

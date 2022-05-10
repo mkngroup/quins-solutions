@@ -2,8 +2,8 @@ import React from "react";
 import { BsTelephone, BsWhatsapp } from "react-icons/bs";
 import { FiMail } from "react-icons/fi";
 import { GoLocation } from "react-icons/go";
-import Footer from "../components/Footer";
-import Header from "../components/Header";
+import Footer from "../components/footer";
+import Header from "../components/header";
 import Link from "next/link";
 import Head from "next/head";
 

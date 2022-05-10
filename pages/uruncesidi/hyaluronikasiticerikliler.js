@@ -1,6 +1,6 @@
-import Urunihtiyac from "../../components/Urunihtiyac";
-import { Hyaluronikaciticerikliler } from "../../Datas/Tavsiyeolanurunler";
-import { HyaluronicAcidiceriklileryazi } from "../../Datas/Ihtiyaclarinizyazi";
+import Urunihtiyac from "../../components/urunihtiyac";
+import { Hyaluronikaciticerikliler } from "../../Datas/tavsiyeolanurunler";
+import { HyaluronicAcidiceriklileryazi } from "../../Datas/ihtiyaclarinizyazi";
 import Head from 'next/head'
 
 
