@@ -3,6 +3,7 @@ import { useEffect } from "react";
 import Script from "next/script";
 import { useRouter } from "next/router";
 import * as fbq from "../lib/fpixel";
+import Head from "next/head";
 
 function MyApp({ Component, pageProps }) {
   const router = useRouter();
@@ -22,6 +23,25 @@ function MyApp({ Component, pageProps }) {
   }, [router.events]);
   return (
     <>
+      <Head>
+        <link
+          rel="icon"
+          href="https://res.cloudinary.com/dnfmvs2ci/image/upload/v1652202397/quinsicon_fuqmoq.png"
+        />
+        <meta
+          name="facebook-domain-verification"
+          content="mc81yaudne9rd4akz4qh4cfk6z9tn2"
+        />
+        <Script strategy="afterInteractive">
+          {`
+          (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+          new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+          j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+          'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+          })(window,document,'script','dataLayer','GTM-K9SF4XX');
+          `}
+        </Script>
+      </Head>
       <Script
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{
