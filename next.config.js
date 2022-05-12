@@ -4,6 +4,9 @@ const nextConfig = {
   eslint: {
     ignoreDuringBuilds: true,
   },
+  env: {
+    GOOGLE_ANALYTICS_ID: 'G-573P6NBBF7'
+  }
 };
 
 module.exports = nextConfig;

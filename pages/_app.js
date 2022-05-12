@@ -4,6 +4,8 @@ import Script from "next/script";
 import { useRouter } from "next/router";
 import * as fbq from "../lib/fpixel";
 import Head from "next/head";
+import * as ga from '../lib/google-analytics'
+
 
 function MyApp({ Component, pageProps }) {
   const router = useRouter();
@@ -12,8 +14,9 @@ function MyApp({ Component, pageProps }) {
     // This pageview only triggers the first time (it's important for Pixel to have real information)
     fbq.pageview();
 
-    const handleRouteChange = () => {
+    const handleRouteChange = (url) => {
       fbq.pageview();
+      ga.pageview(url)
     };
 
     router.events.on("routeChangeComplete", handleRouteChange);
@@ -28,10 +31,12 @@ function MyApp({ Component, pageProps }) {
           rel="icon"
           href="https://res.cloudinary.com/dnfmvs2ci/image/upload/v1652202397/quinsicon_fuqmoq.png"
         />
+
         <meta
           name="facebook-domain-verification"
           content="mc81yaudne9rd4akz4qh4cfk6z9tn2"
         />
+        {/* GOOGLE TAG */}
         <Script strategy="afterInteractive">
           {`
           (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -42,6 +47,23 @@ function MyApp({ Component, pageProps }) {
           `}
         </Script>
       </Head>
+
+      {/* GOOGLE ANALYTICS */}
+      <Script
+        src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GOOGLE_ANALYTICS_ID}`}
+        strategy="afterInteractive"
+      />
+      <Script id="google-analytics-script" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+        
+          gtag('config', '${process.env.GOOGLE_ANALYTICS_ID}');
+          `}
+      </Script>
+
+      {/* FACEBOOK EVENTS */}
       <Script
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{
@@ -59,21 +81,15 @@ function MyApp({ Component, pageProps }) {
           `,
         }}
       />
-      <Script
-        strategy="lazyOnload"
-        src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
-      />
-
-      <Script strategy="lazyOnload">
-        {`
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}', {
-        page_path: window.location.pathname,
-        });
-    `}
-      </Script>
+      {/* GOOGLE TAG */}
+      <noscript>
+        <iframe
+          src="https://www.googletagmanager.com/ns.html?id=GTM-K9SF4XX"
+          height="0"
+          width="0"
+          className="hidden invisible"
+        ></iframe>
+      </noscript>
       <Component {...pageProps} />
     </>
   );

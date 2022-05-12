@@ -16,14 +16,7 @@ export default function Home() {
         />
       </Head>
 
-      <noscript>
-        <iframe
-          src="https://www.googletagmanager.com/ns.html?id=GTM-K9SF4XX"
-          height="0"
-          width="0"
-          className="hidden invisible"
-        ></iframe>
-      </noscript>
+      
 
       <Header />
       <Main />
