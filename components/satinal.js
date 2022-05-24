@@ -11,13 +11,13 @@ function satinal(props) {
         </div>
         <div className="group flex items-center gap-2">
           {/* <span className=" absolute -right-[1000px]  transition-all ease-in-out duration-200 group-hover:block group-hover:right-20">Trendyol</span> */}
-          <Link href={props.selllink} className="">
+          <a href={props.selllink} target="_blank">
             <img
               src="https://res.cloudinary.com/dnfmvs2ci/image/upload/v1653377596/trendyol_logo_jzzn2m.webp"
               alt=""
               className="w-[42px] h-[42px] rounded-full hover:scale-110 transition-all ease-in-out duration-150 cursor-pointer"
             />
-          </Link>
+          </a>
         </div>
         <a target="_blank" href="https://wa.me/905314942594">
           <IoLogoWhatsapp className="text-5xl text-green-500 hover:scale-110 transition-all ease-in-out duration-150" />
