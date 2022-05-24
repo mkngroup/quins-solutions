@@ -1,10 +1,11 @@
 import React from "react";
 import KesfetBtn from "./kesfetbtn";
+import Link from 'next/link'
 
 function secondfeedmain() {
   return (
     <>
-      <div className="px-5">
+      <div className="px-2 md:px-5">
         <IlkyaziBanner />
       </div>
       <br />
@@ -13,7 +14,7 @@ function secondfeedmain() {
       <BannerCollagen />
       <br />
       <br />
-      <div className="px-5">
+      <div className="px-2 md:px-5">
         <SecondYaziBanner />
       </div>
       <br />
@@ -23,7 +24,7 @@ function secondfeedmain() {
       <br />
       <br />
 
-      <div className="px-5">
+      <div className="px-2 md:px-5">
         <ThirdYaziBanner />
       </div>
       <br />
@@ -42,7 +43,9 @@ export const AlisverisBanner = () => {
   return (
     <>
       <div className="bg-[#A3C1AD] w-full md:max-h-fit relative">
-        <p className="pt-2 pl-2 md:absolute md:top-5 md:left-5 text-white">Quins Derm Solutions ® | Rebooster Serum Series ™</p>
+        <p className="pt-2 pl-2 md:absolute md:top-5 md:left-5 text-white">
+          Quins Derm Solutions ® | Rebooster Serum Series ™
+        </p>
         <div className="p-5 md:p-20">
           <p className="text-center text-xl font-semibold">
             Quins Derm Solutions markası olarak uzmanlık ve kaliteyi bir araya
@@ -89,7 +92,9 @@ export const BannerC = () => {
               uygundur.
             </p>
             <div className="mt-10">
-              <Bannerbtn />
+              <Bannerbtn 
+              link = "/products/colorperfection-cserum"
+              />
             </div>
           </div>
         </div>
@@ -128,7 +133,9 @@ export const BannerHyaluronic = () => {
               yardımcı olur.
             </p>
             <div className="mt-10">
-              <Bannerbtn />
+              <Bannerbtn 
+              link = "/products/hydrocomplex-hyaluronikasitserum"
+              />
             </div>
           </div>
         </div>
@@ -169,7 +176,9 @@ export const BannerCollagen = () => {
                 katar.
               </p>
               <div className="mt-10">
-                <Bannerbtn />
+                <Bannerbtn
+                link = "/products/ultralift-collagenserum"
+                />
               </div>
             </div>
           </div>
@@ -179,11 +188,11 @@ export const BannerCollagen = () => {
   );
 };
 
-export const Bannerbtn = () => {
+export const Bannerbtn = (props) => {
   return (
     <>
       <p className="px-5 py-3 bg-transparent border max-w-fit rounded-md text-white whitespace-nowrap transition-all ease-in-out duration-150 hover:bg-white hover:drop-shadow-xl hover:text-black">
-        ŞİMDİ KEŞFET
+        <Link href={props.link}>ŞİMDİ KEŞFET</Link>
       </p>
     </>
   );
