@@ -1,4 +1,5 @@
 export const vitaminc = {
+  selllink: "https://www.trendyol.com/quins-derm-solutions/10-saf-vitamin-c-serum-2x30ml-10-gunde-cilt-tonunu-esitler-gunes-yaslilik-lekeleri-hassas-ciltler-p-288236543?boutiqueId=606439&merchantId=604981",
     metatitle: "Rebooster ™ Serum Series Color Perfection C Serum - Renk Ton Eşitleyici Serum | Quins Solutions",
   metadescrip:
     "LEKE KARŞITI ETKILI FORMÜL 10 GÜNDE CILT TONUNU EŞITLER Yüz ve boyun C Serumu; cildin daha parlak, pürüzsüz ve yumuşak olmasını sağlar. Çeşitli nedenlerden kaynaklanan lekelerin görünümünü azaltmak için tasarlanmıştır. Bu serum konsantre %10 Saf C Vitamini, B3 - B5 - E Vitaminleri ve Allantoin'i bir araya getirerek optimum etkinlik sağlar. Hassas ciltler için de uygundur",
@@ -85,6 +86,7 @@ export const vitaminc = {
     "Aqua • Ascorbic Acid • Propylene Glycol • Ethyl Alcohol • Glycerine • Panthenol • Niacinamide • Phenoxyethanol • Poly Sorbate 20 • Fragrance • Hyaluronic acid • Allantoin • Salicylic Acid • Alpha-Tocopherol Acetate • Ethyl hexylglycerin.",
 };
 export const collagen = {
+  selllink: "https://www.trendyol.com/quins-derm-solutions/sarkma-onleyici-aninda-sikilasma-hissi-10-kolajen-vitamin-b3-ultra-lift-collagen-serum-2x30ml-p-288556548?boutiqueId=606439&merchantId=604981",
   metatitle: "Rebooster ™ Serum Series Ultra Lift Collagen Serum - SARKMALARI TOPARLAR ANINDA SIKILAŞMA HİSSİ VERİR",
   metadescrip:
     "SARKMA ÖNLEYİCİ MAKSİMUM GÜÇ FORMÜLÜ ANINDA SIKILAŞMA HİSSİ VERİR 2 çeşit kolajen ve B3-B5-C ve E vitaminler kompleksi cildinizi güçlendirir, sarkmaları toplar ve anında sıkılaşma hissi verir. Tüm cilt tiplerine uygun Ultra-Lift kolajen serumu, konsantre özel formülü ile cildin en alt tabakasına kolajen takviyesi yapar. 4 haftalık kullanımda yüzdeki sarkmaları azaltır, cildiniz daha genç ve daha güçlü görünüm kazanır. Vitaminler cildinize parlaklık ve dolgunluk katar",
@@ -178,6 +180,7 @@ export const collagen = {
     "Aqua • Collagen • Propylene Glycol • Grape Seed Extract • Glycerine • Helichrysum Italicum Flower extract • Panthenol • Ascorbic Acid • Phenoxyethanol • Poly Sorbate 20 • Fragrance • Sodium Hyaluronate • Allantoin • Niacinamide • Zinc Gluconate • Alpha-Tocopherol Acetate • Ethyl hexylglycerin",
 };
 export const hyaluronicacid = {
+  selllink: "https://www.trendyol.com/quins-derm-solutions/48-saat-nemlendirici-yaslanma-karsiti-2-cesit-2-hyaluronik-asit-kompleksi-2x30ml-nemlendirici-serum-p-289140888?boutiqueId=606439&merchantId=604981",
   metatitle: "Rebooster ™ Serum Series Hydro Complex Hyaluronic Acid Serum - 48 SAAT NEMLENDİRİCİ- YAŞLANMA KARŞITI",
   metadescrip:
     "ÜKSEK KONSANTRASYONLU HYALÜRONİK ASİT SERUM BU 48 SAAT BOYUNCA DERINLEMESINE NEMLENDIRICI VE KIRIŞIKLIK GÖRÜNÜMÜNÜ AZALTMAK IÇIN TASARLANDI. Quins'in ultra nemlendirici serumu; cildinize dolgun, parlak bir görünüm kazandırır ve yaşlanma görünümünü azaltır. Hydro Complex formülü, cilt tarafından hızla emilen 2 tip saf hiyalüronik asit içerir. B5 vitamini ile zenginleştirilmiş formül cilt bariyerini korumaya ve onarmaya yardımcı olur.",

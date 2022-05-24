@@ -4,18 +4,18 @@ import Header from "../../../components/header";
 import ProductsPage from "../../../components/productspage";
 import { vitaminc } from "../../../datas/productspagedata";
 
-
 function index() {
   const data = vitaminc;
   return (
     <div>
       <Header />
       <ProductsPage
+        selllink={data.selllink}
         metatitle={data.metatitle}
         metadescrip={data.metadescrip}
-        yon2link = {data.yon2link}
+        yon2link={data.yon2link}
         yon2={data.yon2}
-        yon3link = {data.yon3link}
+        yon3link={data.yon3link}
         yon3={data.yon3}
         yon4={data.yon4}
         mainimg={data.mainimg}

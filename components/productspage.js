@@ -3,10 +3,12 @@ import { RiArrowRightSLine } from "react-icons/ri";
 import { BsCheck, BsPeople } from "react-icons/bs";
 import Head from "next/head";
 import Link from "next/link";
+import Satinal from "./satinal";
 
 function ProductsPage(props) {
   return (
     <div className="bg-[#F0F0F0] mt-4">
+      <Satinal selllink={props.selllink} />
       <Head>
         <title>{props.metatitle}</title>
         <meta name="description" content={props.metadescrıp} />
@@ -90,7 +92,10 @@ function ProductsPage(props) {
               <ul className="mt-1">
                 {props.formulali.map((data, key) => {
                   return (
-                    <li key={key} className="flex items-center text-sm capitalize ">
+                    <li
+                      key={key}
+                      className="flex items-center text-sm capitalize "
+                    >
                       <BsCheck className="mr-1 text-2xl text-red-600" />
                       {data.li}
                     </li>
@@ -185,7 +190,9 @@ function ProductsPage(props) {
                 <ul>
                   {props.cilttipiyazili.map((data, key) => {
                     return (
-                      <li key={key} className="text-gray-700 capitalize">{data.li}</li>
+                      <li key={key} className="text-gray-700 capitalize">
+                        {data.li}
+                      </li>
                     );
                   })}
                 </ul>
@@ -223,7 +230,10 @@ function ProductsPage(props) {
           <ul className="flex justify-around my-10">
             {props.deneyyorumyazi.map((data, key) => {
               return (
-                <li key={key} className="flex flex-col items-center text-2xl md:text-5xl font-bold text-red-600 ">
+                <li
+                  key={key}
+                  className="flex flex-col items-center text-2xl md:text-5xl font-bold text-red-600 "
+                >
                   {data.liyuzde}{" "}
                   <span className="text-sm md:text-base font-semibold capitalize text-black mt-3 text-center">
                     {data.liyazi}

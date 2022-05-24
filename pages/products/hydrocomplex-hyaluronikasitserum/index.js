@@ -10,6 +10,7 @@ function index() {
     <div>
       <Header />
       <ProductsPage
+      selllink = {data.selllink}
         metatitle={data.metatitle}
         metadescrip={data.metadescrip}
         yon2={data.yon2}
