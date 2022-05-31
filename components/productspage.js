@@ -11,7 +11,7 @@ function ProductsPage(props) {
       <Satinal selllink={props.selllink} />
       <Head>
         <title>{props.metatitle}</title>
-        <meta name="description" content={props.metadescrıp} />
+        <meta name="description" content={props.metadescrip} />
         <meta
           name="keywords"
           content="cilt bakımı, c vitamini, vitamin, leke, kırışıklık, yaşlanma karşıtı, antiaging, hyalüronik asit, kolajen, botoks, yüz bakımı, kırışıklık"
